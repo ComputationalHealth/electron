@@ -1,7 +1,7 @@
 # electron
-- Launch baikal-devenv through docker-compose
+- Launch baikal-devenv through docker-compose (tested against tag v2.6.0.3)
 ```shell
-git clone 
+git clone git@github.com:ComputationalHealth/baikal-devenv.git
 cd baikal-devenv/compose
 docker-compose up -d --build
 ```
