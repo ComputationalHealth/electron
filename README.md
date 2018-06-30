@@ -12,7 +12,7 @@ docker exec hadoop-namenode /bin/bash startup.sh
 - Load Jupyter in browser, upload demo files
   - Run ZookeeperConfig.ipynb cells (this creates the node for Storm to store Kafka offsets)
 - Copy and load topology
-  - Download or build shaded electron jar, then:
+  - Download (https://github.com/ComputationalHealth/electron/releases/download/v1.0.0/electron-1.0.0-shaded.jar) or build shaded electron jar, then:
 ```shell
 docker cp electron-1.0.0-shaded.jar supervisor:/
 docker exec supervisor storm jar /electron-1.0.0-shaded.jar org.yale.comphealth.electron.topology.ConsumeSignalTopology
