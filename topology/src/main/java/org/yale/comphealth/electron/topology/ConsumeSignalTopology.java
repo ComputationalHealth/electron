@@ -76,7 +76,7 @@ public class ConsumeSignalTopology {
                 .withFileNameFormat(obxFileNameFormat)
                 .withRotationPolicy(rotationPolicy)
                 .withSyncPolicy(syncPolicy)
-                .withSnappyCompression(true);
+                .withSnappyCompression(false); // can turn on snappy if desired
 
         // set base path -- AvroObxRecordBolt will append year and month
         FileNameFormat obrFileNameFormat = new DefaultFileNameFormat()
@@ -90,7 +90,7 @@ public class ConsumeSignalTopology {
                 .withFileNameFormat(obrFileNameFormat)
                 .withRotationPolicy(rotationPolicy)
                 .withSyncPolicy(syncPolicy)
-                .withSnappyCompression(true);
+                .withSnappyCompression(false); // can turn on snappy if desired
 
         TopologyBuilder builder = new TopologyBuilder();
 
