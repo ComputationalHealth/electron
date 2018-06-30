@@ -1,0 +1,19 @@
+{
+  "namespace":"org.yale.comphealth.electron.models",
+  "type":"record",
+  "name":"ObxAvroModel",
+  "fields":[
+    {"name":"msh_ts", "type":"long"},
+    {"name":"alarm_ts", "type":"long"},
+    {"name":"source", "type":"string"},
+    {"name":"unit", "type":"string"},
+    {"name":"bed", "type":"string"},
+    {"name":"channel", "type":"string"},
+    {"name":"text", "type":"string"},
+    {"name":"msg_id", "type":"string"},
+    {"name":"helix_rcv_ts", "type":"long"},
+    {"name":"tz_offset", "type":"int"},
+    {"name":"msg_line", "type":"int"},
+    {"name":"msg_max_line", "type":"int"}
+  ]
+}
