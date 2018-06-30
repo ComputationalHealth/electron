@@ -1,0 +1,13 @@
+{
+  "namespace":"org.yale.comphealth.electron.models",
+  "type":"record",
+  "name":"ObrAvroModel",
+  "fields":[
+    {"name":"msh_ts", "type":"long"},
+    {"name":"source", "type":"string"},
+    {"name":"msg_id", "type":"string"},
+    {"name":"hl7", "type":"string"},
+    {"name":"helix_rcv_ts", "type":"long"},
+    {"name":"tz_offset", "type":"int"}
+  ]
+}
