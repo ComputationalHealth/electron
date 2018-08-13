@@ -1,4 +1,10 @@
-# electron
+electron
+========
+This repository primarily consists of a Storm topology that can be used to acquire and store streaming, real-time physiologic monitoring data. The repository also includes code to generate random data for development and testing purposes, as well as a Zeppelin notebook with an example analytic application.
+
+Instructions
+------------
+
 - Launch [baikal-devenv](https://github.com/ComputationalHealth/baikal-devenv) through docker-compose (tested against tag v2.6.0.3)
 ```shell
 git clone git@github.com:ComputationalHealth/baikal-devenv.git
